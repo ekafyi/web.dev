@@ -10,8 +10,9 @@ description: |
 date: 2018-04-24
 glitch: fav-kitties-compress-starter
 related_post: reduce-network-payloads-using-text-compression
+tags:
+  - fast
 ---
-
 {% include 'content/devtools-headsup.njk' %}
 
 This codelab explores how both minifying and compressing the JavaScript

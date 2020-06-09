@@ -6,6 +6,8 @@ authors:
 description: |
   Learn how to minify CSS files, to improve performance, without affecting how the browser process the styles.
 date: 2019-05-02
+tags:
+  - fast
 ---
 
 CSS files can contain unnecessary characters, such as comments, whitespaces, and indentation.

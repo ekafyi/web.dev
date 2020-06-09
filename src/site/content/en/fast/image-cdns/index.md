@@ -9,6 +9,8 @@ description: |
 date: 2019-08-14
 codelabs:
   - install-thumbor
+tags:
+  - fast
 ---
 
 ## Why use an image CDN?

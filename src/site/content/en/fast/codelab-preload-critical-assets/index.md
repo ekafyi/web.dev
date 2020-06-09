@@ -8,6 +8,8 @@ description: |
   and prefetching resources.
 date: 2018-04-24
 glitch: preload-critical-assets
+tags:
+  - fast
 ---
 
 {% include 'content/devtools-headsup.njk' %}
@@ -48,9 +50,9 @@ prioritized and fetched by the browser. For this web page, it currently looks
 like this:
 
 ```bash
-├─┬ / (initial HTML file)  
+├─┬ / (initial HTML file)
   └── fetch-css.js
-    └── main.css  
+    └── main.css
       └── K2D.woff2
 ```
 

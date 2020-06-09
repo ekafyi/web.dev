@@ -14,6 +14,7 @@ tags:
   - blog
   - e-commerce
   - performance
+  - fast
 ---
 
 ## Introduction
@@ -62,7 +63,7 @@ For example, a custom report to do so looks like this in Google Analytics:
 {% Aside 'caution' %}
   **Metrics can be deceiving.**
   Unfortunately metrics can sometimes be misleading with respect to performance.
-  Keep reading for specifics.   
+  Keep reading for specifics.
 {% endAside %}
 
 ## Increasing bounce rate
@@ -73,7 +74,7 @@ Often it is assumed that bounce rate will drop when page load speed
 increases. While this normally does hold true, measurements sometimes show the
 opposite. This is because analytics can only measure a bounce after the
 analytics library is loaded. A faster page load means analytics code also loads
-faster, so analytics may see more bounces even if there aren't more happening.  
+faster, so analytics may see more bounces even if there aren't more happening.
 
 ### Solution
 
@@ -88,7 +89,7 @@ Relative conversions may sometimes seem to drop for faster sites.
 This is because faster pages reach a bigger audience who might be less engaged
 or committed. While incremental traffic and conversions increase with faster
 pages, relative conversions (the ratio of conversions to page views or visitors)
-might still drop.  
+might still drop.
 
 ### Solution
 
@@ -99,7 +100,7 @@ even calculate Cost Per Sales (conversions divided with investment level) or ROI
 
 ### Problem
 
-Page engagement may seem to drop for a faster page.  
+Page engagement may seem to drop for a faster page.
 
 ### Solution
 
@@ -117,7 +118,7 @@ _[Everything You Know About Latency Is Wrong](https://bravenewgeek.com/everythin
 Similar to a chain being just as strong as the weakest link, the performance of
 a funnel is only as good as its slowest load. A single slow load may be enough
 to lose the user. Therefore averages and medians are more likely to hide the
-real performance issues, than to reveal them.  
+real performance issues, than to reveal them.
 
 ### Solution
 
@@ -180,7 +181,7 @@ Learn more in
 
 Unfortunately performance is often seen as a one-off optimization task, and then
 regresses over time as stakeholders raise new feature requests or insist on
-adding new trackers and widgets.  
+adding new trackers and widgets.
 
 Performance must be a continuous goal to improve acquisition, discovery, and
 conversion rates as well as safeguarding the reputation of your brand. This can

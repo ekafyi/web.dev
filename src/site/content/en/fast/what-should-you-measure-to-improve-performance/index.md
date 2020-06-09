@@ -13,6 +13,7 @@ tags:
   - blog
   - performance
   - ecommerce
+  - fast
 ---
 
 The different steps of a purchase funnel are prone to performance issues in

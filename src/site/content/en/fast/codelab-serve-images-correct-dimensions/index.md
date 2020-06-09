@@ -9,6 +9,8 @@ description: |
 date: 2018-11-05
 glitch: correct-dimensions
 related_post: serve-images-with-correct-dimensions
+tags:
+  - fast
 ---
 
 ## Run Lighthouse
@@ -76,7 +78,7 @@ This is the CSS for `flower_photo.jpg`:
 ```
 
 `50vw` sets the CSS width of `flower_photo.jpg` to "half the width of
-the browser."  
+the browser."
 ([1vw](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units)
 is equal to 1% the width of the browser).
 
@@ -91,7 +93,7 @@ screen resolutions.">
 This data indicates that 95%+ of the visitors to this site use screen
 resolutions 1920 pixels wide or less.
 
-Using this information we can calculate how wide the image should be:  
+Using this information we can calculate how wide the image should be:
 (1920 pixels wide) * (50% of browser width) = 960 pixels
 
 On resolutions greater than 1920 pixels wide, the image will be stretched to

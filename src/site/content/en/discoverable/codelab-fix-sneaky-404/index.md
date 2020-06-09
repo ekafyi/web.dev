@@ -9,6 +9,8 @@ description: |
   page from being properly indexed.
 glitch: fix-sneaky-404
 related_post: fix-http-status-codes
+tags:
+  - discoverable
 ---
 
 Single Page Apps can show different content without loading a new page. To do

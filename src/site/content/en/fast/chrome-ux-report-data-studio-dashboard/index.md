@@ -9,6 +9,8 @@ description: |
   guide, learn how to create your own custom CrUX Dashboard to track an origin's
   user experience.
 date: 2018-11-05
+tags:
+  - fast
 ---
 
 [Data Studio](https://marketingplatform.google.com/about/data-studio/) is a
@@ -121,7 +123,7 @@ example above, 2G, Slow 2G, and offline are all 0%.
 
 Data Studio dashboards can be shared just like a Google Doc to provide access to
 your team or to make the dashboard publicly viewable by permalink. Needless to
-say, you don't have to own the site you are getting a dashboard for, so you can 
+say, you don't have to own the site you are getting a dashboard for, so you can
 easily use this tool to keep an eye on your competitors' sites.
 
 ![CrUX Data Studio embedding and sharing](./dash_embed.png)

@@ -7,8 +7,9 @@ description: |
   Learn how to speed up future navigations by prefetching resources.
 date: 2019-09-12
 glitch: two-ways-to-prefetch
+tags:
+  - fast
 ---
-
 {% include 'content/devtools-headsup.njk' %}
 
 In this codelab, you'll implement prefetching in two ways: with `<link rel="prefetch">` and with HTTP `Link` header.
@@ -93,7 +94,7 @@ To implement adaptive prefetching, first remove the `<link rel="prefetch">` tag 
        <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-	   <link rel="prefetch" href="/product-details.html" as="document"> 
+	   <link rel="prefetch" href="/product-details.html" as="document">
 	   ...
 	</head>
 ```
@@ -101,17 +102,17 @@ To implement adaptive prefetching, first remove the `<link rel="prefetch">` tag 
 Then add the following code to `public/script.js` to declare a function that dynamically injects the `prefetch` tag when the user is on a fast connection:
 
 ```js/0-14/
-function injectLinkPrefetchIn4g(url) { 
-	if (window.navigator.connection.effectiveType === '4g') { 
-		//generate link prefetch tag 
-		const linkTag = document.createElement('link'); 
-		linkTag.rel = 'prefetch'; 
-		linkTag.href = url; 
-		linkTag.as = 'document'; 
+function injectLinkPrefetchIn4g(url) {
+	if (window.navigator.connection.effectiveType === '4g') {
+		//generate link prefetch tag
+		const linkTag = document.createElement('link');
+		linkTag.rel = 'prefetch';
+		linkTag.href = url;
+		linkTag.as = 'document';
 
-		//inject tag in the head of the document 
-		document.head.appendChild(linkTag); 
-	} 
+		//inject tag in the head of the document
+		document.head.appendChild(linkTag);
+	}
 }
 ```
 

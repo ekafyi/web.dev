@@ -8,8 +8,9 @@ description: |
   Rendering Path, and improving FCP (First Contentful Paint).
 date: 2019-02-17
 updated: 2019-10-30
+tags:
+  - fast
 ---
-
 CSS files are [render-blocking resources](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources):
 they must be loaded and processed before the browser renders the page. Web pages that contain unnecessarily large styles
 take longer to render.

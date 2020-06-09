@@ -12,6 +12,7 @@ tags:
   - blog
   - e-commerce
   - analytics
+  - fast
 ---
 
 After a lot of hard work, you've done it. You've made your company's site

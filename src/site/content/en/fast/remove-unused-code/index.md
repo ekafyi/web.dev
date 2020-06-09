@@ -14,6 +14,8 @@ description: |
   this issue, analyze your bundle to detect unused code.
 codelabs:
   - codelab-remove-unused-code
+tags:
+  - fast
 ---
 
 Registries like [npm](https://docs.npmjs.com/getting-started/what-is-npm) have

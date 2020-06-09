@@ -14,8 +14,8 @@ tags:
   - performance
   - third-party
   - javascript
+  - fast
 ---
-
 If a third-party script is [slowing down](/third-party-javascript/) your page load, you have two options to improve performance:
 
 * Remove it if it doesn't add clear value to your site.

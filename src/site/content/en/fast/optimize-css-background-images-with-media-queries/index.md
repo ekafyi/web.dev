@@ -4,10 +4,12 @@ title: Optimize CSS background images with media queries
 authors:
   - demianrenzulli
 description: |
-  Use media queries to send images that are only as large as they need to be, 
+  Use media queries to send images that are only as large as they need to be,
   a technique commonly known as responsive images.
 date: 2020-03-05
 updated: 2020-03-05
+tags:
+  - fast
 ---
 
 Many sites request heavy resources, like images, that are not optimized for certain screens, and send large CSS files containing styles that some devices will never use. Using media queries is a popular technique for delivering tailored stylesheets and assets to different screens to reduce the amount of data transferred to users and improve page load performance. This guide shows you how to use media queries to send images that are only as large as they need to be, a technique commonly known as **responsive images**.
@@ -40,11 +42,11 @@ Resize the browser window and notice that the Network Log isn't showing any new 
 You can see the styles that control the background image in [style.css](https://use-media-queries-unoptimized.glitch.me/style.css):
 
 ```css
-body { 
-  background-position: center center; 
-  background-attachment: fixed; 
-  background-repeat: no-repeat; background-size: cover; 
-  background-image: url(images/background-desktop.jpg); 
+body {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; background-size: cover;
+  background-image: url(images/background-desktop.jpg);
 }
 ```
 
@@ -52,7 +54,7 @@ Here's the meaning of each of the properties used:
 
 - `background-position: center center`: Center the image vertically and horizontally.
 - `background-repeat: no-repeat`: Show the image only once.
-- `background-attachment: fixed`: Avoid making the background image scroll.   
+- `background-attachment: fixed`: Avoid making the background image scroll.
 - `background-size: cover`: Resize the image to cover the entire container.
 - `background-image: url(images/background-desktop.jpg)`: The URL of the image.
 
@@ -67,19 +69,19 @@ In the next section, you'll learn how to apply an optimization to load different
 
 ## Use media queries
 
-Using media queries is a common technique to declare stylesheets that will only apply to certain media or device types. They are implemented by using [@media rules](https://developer.mozilla.org/en-US/docs/Web/CSS/@media), which let you define a set of breakpoints, where specific styles are defined. 
+Using media queries is a common technique to declare stylesheets that will only apply to certain media or device types. They are implemented by using [@media rules](https://developer.mozilla.org/en-US/docs/Web/CSS/@media), which let you define a set of breakpoints, where specific styles are defined.
 When the conditions defined by the `@media` rule are met (for example, a certain screen width), the group of styles defined inside the breakpoint will be applied.
 
 The following steps can be used to apply media queries to [the site](https://use-media-queries-unoptimized.glitch.me/) so that different images are used, depending on the maximum width of the device requesting the page.
 
-- In `style.css` remove the line that contains the background image URL: 
+- In `style.css` remove the line that contains the background image URL:
 
 ```css//4
-body { 
-  background-position: center center; 
-  background-attachment: fixed; 
-  background-repeat: no-repeat; background-size: cover; 
-  background-image: url(images/background-desktop.jpg); 
+body {
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; background-size: cover;
+  background-image: url(images/background-desktop.jpg);
 }
 ```
 
@@ -146,5 +148,5 @@ The size of the new mobile background is **67% smaller** than the desktop one.
 ## Summary
 
 In this guide you've learned to apply media queries to request background images tailored to specific screen sizes and save bytes when accessing the site on smaller devices, like mobile phones.
-You used the `@media` rule to implement a responsive background. This technique is widely supported by all browsers. 
+You used the `@media` rule to implement a responsive background. This technique is widely supported by all browsers.
 A new CSS feature: [image-set()](https://drafts.csswg.org/css-images-4/#image-set-notation), can be used for the same purpose with fewer lines of code. At the time of this writing, this feature is not supported in all browsers, but you might want to keep an eye on how adoption evolves, as it can represent an interesting alternative to this technique.

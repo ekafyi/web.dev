@@ -9,8 +9,9 @@ description: |
 date: 2019-05-05
 glitch: fav-kitties-compress-starter
 related_post: reduce-network-payloads-using-text-compression
+tags:
+  - fast
 ---
-
 {% include 'content/devtools-headsup.njk' %}
 
 This codelab is an extension of the [Minify and compress network payloads

@@ -9,6 +9,8 @@ description: |
   PNG images for faster download.
 glitch: imagemin-gulp
 related_post: use-imagemin-to-compress-images
+tags:
+  - fast
 ---
 
 ## Setup the Imagemin Gulp plugin

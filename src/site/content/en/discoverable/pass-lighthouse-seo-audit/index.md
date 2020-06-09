@@ -10,6 +10,8 @@ description: |
   improvement. SEO matters because it's how you get more relevant users viewing
   your content.
 web_lighthouse: N/A
+tags:
+  - discoverable
 ---
 
 ## Why does this matter?

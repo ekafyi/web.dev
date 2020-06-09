@@ -10,6 +10,8 @@ description: |
   Understanding the basics of search prepares you to make your content
   discoverable for users.
 web_lighthouse: N/A
+tags:
+  - discoverable
 ---
 
 ## What does a search engine do?
