@@ -9,7 +9,7 @@ glitch: critical-css-starter
 date: 2019-05-29
 related_post: extract-critical-css
 tags:
-  - fast
+  - performance
 ---
 
 {% include 'content/devtools-headsup.njk' %}

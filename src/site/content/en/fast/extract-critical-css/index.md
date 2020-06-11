@@ -14,7 +14,6 @@ tags:
   - blog # blog is a required tag for the article to show up in the blog.
   - performance
   - css
-  - fast
 ---
 
 The browser must download and parse CSS files before it can show the page, which makes CSS a render-blocking resource. If CSS files are big, or network conditions are poor, requests for CSS files can significantly increase the time it takes for a web page to render.

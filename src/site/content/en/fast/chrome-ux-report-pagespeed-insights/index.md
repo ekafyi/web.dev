@@ -9,7 +9,7 @@ description: |
   PSI to extract insights from CrUX and better understand the user experience.
 date: 2018-11-05
 tags:
-  - fast
+  - performance
 ---
 
 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)

@@ -8,7 +8,7 @@ description: |
   performance testing in Travis CI with Lighthouse Bot.
 date: 2019-01-28
 tags:
-  - fast
+  - performance
 ---
 
 You've done hard work to get fast, now make sure you stay fast by automating

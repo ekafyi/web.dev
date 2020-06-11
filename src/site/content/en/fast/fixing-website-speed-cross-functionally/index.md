@@ -8,7 +8,6 @@ description: How other departments can help make your website speed optimization
 date: 2020-02-28
 tags:
   - performance
-  - fast
 ---
 
 One common myth connected to site speed is that it's only the development team's responsibility. The

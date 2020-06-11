@@ -10,7 +10,7 @@ date: 2019-01-31
 glitch: webpack-performance-budgets
 related_post: incorporate-performance-budgets-into-your-build-tools
 tags:
-  - fast
+  - performance
 ---
 
 [Webpack](https://developers.google.com/web/fundamentals/performance/webpack/)

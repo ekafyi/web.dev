@@ -9,7 +9,7 @@ description: |
   actually comes from opted-in users in the field.
 date: 2018-11-05
 tags:
-  - fast
+  - performance
 ---
 
 The [Chrome UX Report](https://developers.google.com/web/tools/chrome-user-experience-report/)

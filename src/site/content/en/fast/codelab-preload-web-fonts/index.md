@@ -9,7 +9,7 @@ description: |
 date: 2018-04-23
 glitch: web-dev-preload-webfont
 tags:
-  - fast
+  - performance
 ---
 
 {% include 'content/devtools-headsup.njk' %}

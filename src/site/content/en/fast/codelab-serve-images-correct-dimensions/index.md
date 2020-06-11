@@ -10,7 +10,7 @@ date: 2018-11-05
 glitch: correct-dimensions
 related_post: serve-images-with-correct-dimensions
 tags:
-  - fast
+  - performance
 ---
 
 ## Run Lighthouse

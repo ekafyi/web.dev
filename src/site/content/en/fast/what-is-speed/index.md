@@ -9,7 +9,7 @@ description: |
 web_lighthouse: N/A
 date: 2019-05-01
 tags:
-  - fast
+  - performance
 ---
 
 So, speed matters, but what exactly do we mean by it? What does it mean to have a fast site?

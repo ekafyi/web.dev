@@ -12,7 +12,7 @@ codelabs:
   - codelab-text-compression
 	- codelab-text-compression-brotli
 tags:
-  - fast
+  - performance
 ---
 
 There are two useful techniques that can be used to improve the performance of

@@ -12,7 +12,7 @@ wf_blink_components: N/A
 codelabs:
   - codelab-serve-images-correct-dimensions
 tags:
-  - fast
+  - performance
 ---
 
 We've all been there: you forgot to scale down an image before adding it to the

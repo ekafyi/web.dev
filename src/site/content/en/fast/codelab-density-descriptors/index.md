@@ -10,7 +10,7 @@ glitch: responsive-images-density-descriptors
 date: 2018-11-05
 related_post: serve-responsive-images
 tags:
-  - fast
+  - performance
 ---
 
 ## Explore This Demo

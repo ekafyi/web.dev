@@ -10,7 +10,7 @@ description: |
 web_lighthouse: N/A
 date: 2019-05-01
 tags:
-  - fast
+  - performance
 ---
 
 Brands that optimize speed will often find they regress quickly. This is because website performance is a lot like getting fit: it's not enough to make a one time effort; you have to change your lifestyle.

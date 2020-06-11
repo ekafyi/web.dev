@@ -8,7 +8,7 @@ description: |
   how they can set you on track for success.
 date: 2018-11-05
 tags:
-  - fast
+  - performance
 ---
 
 Performance is an important part of the user experience and it [affects business metrics](https://wpostats.com/). It's tempting to think that if you are a good developer you'll end up with a performant site, but the truth is that good performance is rarely a side effect. As with most other things—to reach a goal you have to define it clearly. Start the journey by setting a **performance budget**.

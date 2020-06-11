@@ -9,7 +9,7 @@ description: |
 date: 2018-04-24
 glitch: preload-critical-assets
 tags:
-  - fast
+  - performance
 ---
 
 {% include 'content/devtools-headsup.njk' %}

@@ -12,7 +12,7 @@ updated: 2020-04-06
 codelabs:
   - codelab-serve-images-webp
 tags:
-  - fast
+  - performance
 ---
 
 ## Why should you care?

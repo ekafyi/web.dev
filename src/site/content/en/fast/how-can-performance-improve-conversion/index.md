@@ -13,7 +13,6 @@ tags:
   - blog
   - performance
   - e-commerce
-  - fast
 ---
 
 In our other e-commerce guides you have learned about [what you should measure

@@ -9,7 +9,7 @@ description: |
   the web.
 date: 2018-11-05
 tags:
-  - fast
+  - performance
 ---
 
 The raw data of the Chrome UX Report

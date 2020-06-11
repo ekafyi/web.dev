@@ -10,7 +10,7 @@ date: 2019-02-01
 codelabs:
   - codelab-setting-performance-budgets-with-webpack
 tags:
-  - fast
+  - performance
 ---
 
 Once you've defined a performance budget, it's time to set up the build process

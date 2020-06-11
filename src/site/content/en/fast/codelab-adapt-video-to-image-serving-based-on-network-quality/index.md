@@ -10,7 +10,7 @@ description: |
 glitch: adaptive-serving-netinfo-starter
 related_post: adaptive-serving-based-on-network-quality
 tags:
-  - fast
+  - performance
 ---
 
 {% include 'content/devtools-headsup.njk' %}

@@ -10,7 +10,7 @@ description: |
 glitch: imagemin-webpack
 related_post: use-imagemin-to-compress-images
 tags:
-  - fast
+  - performance
 ---
 
 ## Set up the Imagemin webpack plugin

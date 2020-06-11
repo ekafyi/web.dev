@@ -13,7 +13,7 @@ codelabs:
   - codelab-imagemin-gulp
   - codelab-imagemin-grunt
 tags:
-  - fast
+  - performance
 ---
 
 ## Why should you care?

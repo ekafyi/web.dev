@@ -10,7 +10,7 @@ date: 2018-11-05
 glitch: font-observer
 related_post: avoid-invisible-text
 tags:
-  - fast
+  - performance
 ---
 
 This code lab shows you how to display text immediately using [Font Face

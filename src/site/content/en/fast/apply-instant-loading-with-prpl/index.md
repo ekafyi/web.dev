@@ -10,7 +10,7 @@ description: |
   results.
 date: 2018-11-05
 tags:
-  - fast
+  - performance
 ---
 
 PRPL is an acronym that describes a pattern used to make web pages load and

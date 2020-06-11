@@ -10,7 +10,7 @@ description: |
 glitch: imagemin-gulp
 related_post: use-imagemin-to-compress-images
 tags:
-  - fast
+  - performance
 ---
 
 ## Setup the Imagemin Gulp plugin

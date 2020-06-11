@@ -12,7 +12,7 @@ date: 2018-11-05
 codelabs:
   - codelab-code-splitting
 tags:
-  - fast
+  - performance
 ---
 
 Nobody likes waiting.

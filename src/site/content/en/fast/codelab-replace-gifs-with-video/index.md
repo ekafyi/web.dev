@@ -11,7 +11,7 @@ description: |
 glitch: gif-to-video
 related_post: replace-gifs-with-videos
 tags:
-  - fast
+  - performance
 ---
 
 {% include 'content/devtools-headsup.njk' %}

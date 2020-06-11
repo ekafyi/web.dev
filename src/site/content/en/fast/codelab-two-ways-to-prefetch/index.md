@@ -8,7 +8,7 @@ description: |
 date: 2019-09-12
 glitch: two-ways-to-prefetch
 tags:
-  - fast
+  - performance
 ---
 {% include 'content/devtools-headsup.njk' %}
 

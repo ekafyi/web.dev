@@ -10,7 +10,7 @@ description: |
   user experience.
 date: 2018-11-05
 tags:
-  - fast
+  - performance
 ---
 
 [Data Studio](https://marketingplatform.google.com/about/data-studio/) is a

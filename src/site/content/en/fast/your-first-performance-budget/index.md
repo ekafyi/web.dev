@@ -8,7 +8,7 @@ description: |
   for performance metrics that are meaningful for your site.
 date: 2018-11-05
 tags:
-  - fast
+  - performance
 ---
 
 When you set a personal, business or family budget, you are setting a limit to your spending and making sure you stay within it. [Performance budgets](/performance-budgets-101) work in the same way, but for metrics that affect website performance.

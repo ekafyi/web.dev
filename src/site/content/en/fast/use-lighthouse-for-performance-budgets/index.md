@@ -12,7 +12,6 @@ updated: 2020-04-03
 tags:
   - blog
   - performance
-  - fast
 ---
 
 [Lighthouse](https://github.com/GoogleChrome/lighthouse) now supports performance budgets. This feature, [LightWallet](https://developers.google.com/web/tools/lighthouse/audits/budgets), can be set up in under five minutes and provides feedback on performance metrics and the size and quantity of page resources.

@@ -12,7 +12,7 @@ date: 2018-11-05
 codelabs:
   - codelab-avoid-invisible-text
 tags:
-  - fast
+  - performance
 ---
 
 ## Why should you care?

@@ -10,7 +10,7 @@ description: |
 codelabs:
   - codelab-adapt-video-to-image-serving-based-on-network-quality
 tags:
-  - fast
+  - performance
 ---
 
 Loading a website can be a very different experience depending on the network

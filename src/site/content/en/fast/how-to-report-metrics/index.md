@@ -14,7 +14,6 @@ tags:
   - blog
   - e-commerce
   - performance
-  - fast
 ---
 
 ## Introduction

@@ -15,7 +15,7 @@ description: |
 codelabs:
   - codelab-remove-unused-code
 tags:
-  - fast
+  - performance
 ---
 
 Registries like [npm](https://docs.npmjs.com/getting-started/what-is-npm) have

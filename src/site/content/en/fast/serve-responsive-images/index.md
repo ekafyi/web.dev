@@ -13,7 +13,7 @@ codelabs:
   - codelab-art-direction
   - codelab-density-descriptors
 tags:
-  - fast
+  - performance
 ---
 
 Serving desktop-sized images to mobile devices can use 2–4x more data than
